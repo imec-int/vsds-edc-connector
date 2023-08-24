@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/connectors" />
             <option value="$PROJECT_DIR$/connectors/consumer" />
             <option value="$PROJECT_DIR$/connectors/provider" />
+            <option value="$PROJECT_DIR$/consumer-pull-backend-service" />
           </set>
         </option>
       </GradleProjectSettings>
