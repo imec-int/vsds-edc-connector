@@ -6,7 +6,7 @@ plugins {
 
 group = "be.imec.edc"
 version = "1.0-SNAPSHOT"
-val edcVersion = "0.2.1"
+val edcVersion = "0.2.0"
 
 repositories {
     mavenCentral()
@@ -28,7 +28,8 @@ dependencies {
 
     implementation(libs.edc.data.plane.api)
     implementation(libs.edc.data.plane.core)
-    implementation(libs.edc.data.plane.http)
+//    implementation(libs.edc.data.plane.http)
+    implementation(project(":data-plane-http-extended"))
 
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")

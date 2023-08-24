@@ -19,6 +19,8 @@ edc-data-plane-azure-storage = { module = "org.eclipse.edc:data-plane-azure-stor
 edc-data-plane-client = { module = "org.eclipse.edc:data-plane-client", version.ref = "edc" }
 edc-data-plane-core = { module = "org.eclipse.edc:data-plane-core", version.ref = "edc" }
 edc-data-plane-http = { module = "org.eclipse.edc:data-plane-http", version.ref = "edc" }
+edc-data-plane-http-pipeline = { module = "org.eclipse.edc:data-plane-http-pipeline", version.ref = "edc" }
+edc-data-plane-http-spi = { module = "org.eclipse.edc:data-plane-http-spi", version.ref = "edc" }
 edc-data-plane-selector-api = { module = "org.eclipse.edc:data-plane-selector-api", version.ref = "edc" }
 edc-data-plane-selector-client = { module = "org.eclipse.edc:data-plane-selector-client", version.ref = "edc" }
 edc-data-plane-selector-core = { module = "org.eclipse.edc:data-plane-selector-core", version.ref = "edc" }
@@ -42,3 +44,4 @@ edc-transfer-spi = { module = "org.eclipse.edc:transfer-spi", version.ref = "edc
 edc-util = { module = "org.eclipse.edc:util", version.ref = "edc" }
 edc-vault-azure = { module = "org.eclipse.edc:vault-azure", version.ref = "edc" }
 edc-vault-filesystem = { module = "org.eclipse.edc:vault-filesystem", version.ref = "edc" }
+edc-http-spi = { module = "org.eclipse.edc:http-spi", version.ref = "edc" }

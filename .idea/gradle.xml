@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/connectors/consumer" />
             <option value="$PROJECT_DIR$/connectors/provider" />
             <option value="$PROJECT_DIR$/consumer-pull-backend-service" />
+            <option value="$PROJECT_DIR$/data-plane-http-extended" />
           </set>
         </option>
       </GradleProjectSettings>
