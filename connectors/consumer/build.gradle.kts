@@ -4,7 +4,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
-group = "eu.headbright"
+group = "be.imec.edc"
 version = "1.0-SNAPSHOT"
 val edcVersion = "0.2.1"
 
