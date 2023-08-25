@@ -14,9 +14,9 @@
 
 package be.imec.edc.vsds.plane.params;
 
-import org.eclipse.edc.connector.dataplane.http.params.decorators.BaseCommonHttpParamsDecorator;
-import org.eclipse.edc.connector.dataplane.http.params.decorators.BaseSinkHttpParamsDecorator;
-import org.eclipse.edc.connector.dataplane.http.params.decorators.BaseSourceHttpParamsDecorator;
+import be.imec.edc.vsds.plane.params.decorators.BaseCommonHttpParamsDecorator;
+import be.imec.edc.vsds.plane.params.decorators.BaseSinkHttpParamsDecorator;
+import be.imec.edc.vsds.plane.params.decorators.BaseSourceHttpParamsDecorator;
 import org.eclipse.edc.connector.dataplane.http.spi.HttpParamsDecorator;
 import org.eclipse.edc.connector.dataplane.http.spi.HttpRequestParams;
 import org.eclipse.edc.connector.dataplane.http.spi.HttpRequestParamsProvider;
